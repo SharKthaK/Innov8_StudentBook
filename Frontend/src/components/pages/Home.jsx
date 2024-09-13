@@ -25,20 +25,43 @@ function Home() {
               }
             })
             .map((val)=>{
-              return (
-                <div className="template" key={val.id} style={{ boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.2)' }} onClick={()=>{
-                  navigate(`/${val.id}/${val.name}`)
-          
-                }}>
-                  <img src={val.img} style={{ border: '3px solid grey', borderRadius: '20px', transition: 'transform 0.3s' ,width: '200px'}} onMouseOver={(event) => {
+                return (
+                <div
+                  className="template"
+                  key={val.id}
+                  id={`template-${val.id}`}
+                  style={{ boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.2)' }}
+                  onClick={() => {
+                  navigate(`/${val.id}/${val.name}`);
+                  }}
+                  onMouseOver={(event) => {
+                  event.currentTarget.style.backgroundColor = '#020708';
+                  event.currentTarget.style.color = 'white';
+                  }}
+                  onMouseOut={(event) => {
+                  event.currentTarget.style.backgroundColor = '';
+                  event.currentTarget.style.color = 'black';
+                  }}
+                >
+                  <img
+                  src={val.img}
+                  style={{
+                    border: '3px solid Arsenic',
+                    borderRadius: '20px',
+                    transition: 'transform 0.3s',
+                    width: '200px',
+                  }}
+                  onMouseOver={(event) => {
                     event.target.style.transform = 'scale(1.1)';
-                  }} onMouseOut={(event) => {
+                  }}
+                  onMouseOut={(event) => {
                     event.target.style.transform = 'scale(1)';
-                  }}/>
+                  }}
+                  />
                   <br />
-                  <h3 style={{ textAlign:'center'}}>{val.name}</h3>
+                  <h3 style={{ textAlign: 'center' }}>{val.name}</h3>
                 </div>
-              );
+                );
             })
           }
         

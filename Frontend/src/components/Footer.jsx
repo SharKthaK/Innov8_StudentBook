@@ -19,8 +19,8 @@ const Footer = () => {
                         <h3>GET IN TOUCH</h3>
                         <p>Contact Us With:</p>
                         <div className="contact-info">
-                            <a href="mailto:studentbook@gmail.com" className="links">
-                                <FontAwesomeIcon icon={faEnvelope} /> studentbook@gmail.com
+                            <a href="mailto:studentbookofficial@gmail.com" className="links">
+                                <FontAwesomeIcon icon={faEnvelope} /> studentbookofficial@gmail.com
                             </a>
                             <a href="tel:+918362229" className="links">
                                 <FontAwesomeIcon icon={faPhone} /> +918362229

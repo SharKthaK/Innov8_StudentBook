@@ -47,6 +47,14 @@ function CSEAI() {
                   onClick={() => {
                     navigate(`/${val.id}/${val.name}`);
                   }}
+                    onMouseOver={(event) => {
+                    event.currentTarget.style.backgroundColor = '#020708';
+                    event.currentTarget.style.color = 'white';
+                    }}
+                    onMouseOut={(event) => {
+                    event.currentTarget.style.backgroundColor = '';
+                    event.currentTarget.style.color = 'black';
+                    }}
                 >
                   <img
                     src={val.img}

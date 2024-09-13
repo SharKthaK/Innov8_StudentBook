@@ -45,6 +45,10 @@ body{
     flex-wrap: wrap;
     height: 230px;
     width: 210px;
+    &:hover {
+        background-color: skyblue;
+        color: #020708;
+    }
 }
 .templateContainerBBIT .template_Container .template img{
     height: 150px;

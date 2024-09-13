@@ -7,8 +7,10 @@
     display: flex;
     flex-direction: column;
     overflow: hidden; /* Disable scrolling */
-    margin-right: 15px;
+    margin-right: 15px;   
 }
+
+
 
 .postImg{
     min-height:150px;
@@ -111,6 +113,10 @@ body{
     height: 250px;
     width: 250px;
     text-align: center;
+    &:hover {
+        background-color: #020708;
+        color: white;
+    }
 }
 .templateContainer .template_Container .template img{
     height: 150px;
