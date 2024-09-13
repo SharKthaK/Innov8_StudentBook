@@ -1,0 +1,183 @@
+[
+    {
+    "id": 1,
+    "img": "https://gyaanarth.com/wp-content/uploads/2022/06/92556054_103764977967295_4495758374297665536_n.jpg",
+    "name": "BBIT"
+    
+    },
+    {
+    "id": 2,
+    "img":"https://tse2.mm.bing.net/th?id=OIP.lvU4Z_G-_AOoHUUoUGlapAAAAA&pid=Api&P=0&h=180",
+    "name":"JIMSH"
+    },
+    {
+    "id": 3,
+    "img":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw5Ll3ntwuKI0NzzX0oaGzcCOXvyjRH_kQsg&s ",
+    "name":"Netaji Subhash Engineering College"
+    },
+    {
+    "id": 4,
+    "img":"https://assets.telegraphindia.com/telegraph/2021/Feb/1612984933_nit-durgapur.jpg",
+    "name":"NIT Durgapur"
+    },
+    {
+    "id": 5,
+    "img":"https://assets.telegraphindia.com/telegraph/e451d0a3-aa85-4ecf-aa3d-fefdea0cc13e.jpg",
+    "name":"Jadavpur University"
+    },
+    {
+    "id": 6,
+    "img":" https://upload.wikimedia.org/wikipedia/commons/8/82/JISCE_Campus.jpg ",
+    "name":"JIS College of Engineering"
+    },
+    {
+    "id": 7,
+    "img":"https://tse4.mm.bing.net/th?id=OIP._ulQsZWwAOD2FofTXlaUuwHaD3&pid=Api&P=0&h=180",
+    "name":"Academy of Technology"
+    },
+    {
+    "id": 8,
+    "img":"https://tse4.mm.bing.net/th?id=OIP.BYAZdSTqqpRps80cGJ3v7QHaE8&pid=Api&P=0&h=180",
+    "name":"Techno Main"
+    },
+    {
+    "id": 9,
+    "img":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8UPnqHK8lxv0EFruKzZwQzknBV4nasYnAQC0Aj260pcbZK46r7n3Ws7aA_nDGgDP9bY&usqp=CAU ",
+    "name":"IIEST Shibpur"
+    },
+    {
+    "id": 10,
+    "img":" https://bunny-wp-pullzone-rjkq0osune.b-cdn.net/wp-content/uploads/2024/04/1.webp ",
+    "name":"B.P. Poddar Institute of Management and Technology"
+    },
+    {
+    "id": 11,
+    "img":" https://content.jdmagicbox.com/comp/kolkata/81/033pf009881/catalogue/heritage-institute-of-technology-east-kolkata-township-kolkata-institutes-1y1ot1b.jpg ",
+    "name":"Heritage Institute of Technology"
+    },
+    {
+    "id": 12,
+    "img":" https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/MSIT_Campus.jpg/640px-MSIT_Campus.jpg ",
+    "name":"Meghnad Saha Institute of Technology"
+    },
+    {
+    "id": 13,
+    "img":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtvSbtrOh5sjOWIjIxMP2Rj8OOx-GHhfUAaod8f1fzZQKBZeIK0NfYutE-y0Z_Fx-NHg&usqp=CAU ",
+    "name":"St. Thomas' College of Engineering and Technology"
+    },
+    {
+    "id": 14,
+    "img":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr5NdFs2T4oUtGWE11z_CSvhQTDAwbKFiYEA&s ",
+    "name":"Dr. B.C. Roy Engineering College"
+    },
+    {
+    "id": 15,
+    "img": "https://images.static-collegedunia.com/public/college_data/images/campusimage/1565248317c5.jpg",
+    "name": "RCC Institute of Information Technology"
+    },
+    {
+    "id": 16,
+    "img":"https://assets.telegraphindia.com/telegraph/2020/Sep/1600023256_1599512034_1599159627_04metiit_4col.jpg",
+    "name":"IIT Kharagpur"
+    },
+    {
+    "id": 17,
+    "img": "https://tse2.mm.bing.net/th?id=OIP.V4N6Ba7c_0vwzO_G1X7vRgHaD5&pid=Api&P=0&h=180",
+    "name":"Narula Institute of Technology"
+    },
+    {
+    "id": 18,
+    "img":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9fTCHRmuhxz0TpUlILOI1NIti50sbbiJ8ig&s ",
+    "name":"Kalyani Government Engineering College"
+    },
+    {
+    "id": 19,
+    "img":" https://collegeforme.org/storage/gallery//2wez0bkgisow40040scc8c0kgowco8w.jpg ",
+    "name":"Jalpaiguri Government Engineering College"
+    },
+    {
+    "id": 20,
+    "img":"https://tse4.mm.bing.net/th?id=OIP.8JuRcMcJ3m98Any59QWt-wHaFc&pid=Api&P=0&h=180",
+    "name":"Haldia Institute of Technology"
+    },
+    {
+    "id": 21,
+    "img":"http://mckvie.edu.in/wp-content/uploads/2021/04/Index-About-Us.jpg",
+    "name":"MCKV Institute of Engineering"
+    },
+    {
+    "id": 22,
+    "img":" https://www.fillandfind.com/uploads/institute/National-Institute-of-Technology-Durgapurdetail-at-fillandfind-com-20161001105123760838867.png ",
+    "name":"National Institute of Technology, Durgapur"
+    },
+    {
+    "id": 23,
+    "img":"https://tse3.mm.bing.net/th?id=OIP.g8rFxXWMunexrcTOrIvUzQHaEV&pid=Api&P=0&h=180",
+    "name":"Calcutta Institute of Engineering and Management"
+    },
+    {
+    "id": 24,
+    "img":" https://www.admissionfever.com/Media/clgimg/gallery/1463_img8481748584669087.jpg ",
+    "name":"University of Burdwan"
+    },
+    {
+    "id": 25,
+    "img":"https://tse4.mm.bing.net/th?id=OIP.ex5r5daZsDxzRZrB-pQZfAHaDt&pid=Api&P=0&h=180",
+    "name":"Institute of Engineering and Management"
+    },
+    {
+    "id": 26,
+    "img":"https://media.licdn.com/dms/image/v2/C4E1BAQGnstiyHpcF_A/company-background_10000/company-background_10000/0/1618729575037/kolkata_calcutta_university_cover?e=2147483647&v=beta&t=IBN4i1UIt8c6NAXeXXSq_t63kHMtDfsoQG0rnxr_dEU",
+    "name":"University of Calcutta"
+    },
+    {
+    "id": 27,
+    "img":" https://tse4.mm.bing.net/th?id=OIP.3kHC7wm24w5WAU-L07Fl3QHaFi&pid=Api&P=0&h=180",
+    "name":"Bengal Institute of Technology"
+    },
+    {
+    "id": 28,
+    "img":"https://tse1.mm.bing.net/th?id=OIP.2kR9BSLaqUMEJ4lfBK6XngAAAA&pid=Api&P=0&h=180",
+    "name":"Future Institute of Engineering and Management"
+    },
+    {
+    "id": 29,
+    "img":" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUiSTKehaV0lzVMIg_Nov6rgdxMPmwNgnrnQ&s ",
+    "name":"Government College of Engineering and Ceramic Technology"
+    },
+    {
+    "id": 30,
+    "img":" https://images.shiksha.com/mediadata/images/1691657366phpx757zc.jpeg ",
+    "name":"College of Engineering and Management, Kolaghat"
+    },
+    {
+    "id": 31,
+    "img":" https://uit.buruniv.ac.in/images/mission.jpg",
+    "name":"University Institute of Technology, Burdwan University"
+    },
+    {
+    "id": 32,
+    "img":" https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Maulana_Abul_Kalam_Azad_University_of_Technology_05.jpg/2560px-Maulana_Abul_Kalam_Azad_University_of_Technology_05.jpg ",
+    "name":"Maulana Abul Kalam Azad University of Technology"
+    },
+    {
+    "id": 33,
+    "img":" https://tse2.mm.bing.net/th?id=OIP.O0FAdsOhJ2sDcUIMCgWZdAAAAA&pid=Api&P=0&h=180",
+    "name":"Vivekananda College, Thakurpukur"
+    },
+    {
+    "id": 34,
+    "img":"https://tse3.mm.bing.net/th?id=OIP.I7b0-HDV2m3kaVxWou0HtwHaDh&pid=Api&P=0&h=180",
+    "name":"Asansol Engineering College"
+    },
+    {
+    "id": 35,
+    "img":" https://tse2.mm.bing.net/th?id=OIP.0rNBNQGpOsWczX-5sJvFSAHaE8&pid=Api&P=0&h=180",
+    "name":"Presidency University, Kolkata"
+    },
+    {
+    "id": 36,
+    "img":"https://tse2.mm.bing.net/th?id=OIP.72qm_jPO9zxXBKLGb-HymwHaDf&pid=Api&P=0&h=180",
+    "name":"St. Xavier's College, Kolkata"
+    }
+]

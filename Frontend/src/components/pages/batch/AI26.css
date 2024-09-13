@@ -1,0 +1,140 @@
+.post{
+    background-color: white;
+    min-width: 20%;
+    max-width: 20%;
+    min-height: 240px;
+    max-height: 560px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Disable scrolling */
+    margin-right: 15px;
+}
+
+.postImg{
+    min-height:150px;
+    min-width:250px;
+    background-color: rgb(112, 176, 236);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+.postContent{
+    background-color:white;
+    color: black;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.postCard{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Added shadow effect */
+}
+.postTitle{
+    font-weight: 550;
+    font-size: 13px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+    margin: 10px;
+    
+}
+
+.postHead {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0; /* Sticks the div to the top of the parent */
+    z-index: 1; /* Ensures it stays above other content */
+}
+
+.AI26home{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: white;
+}
+.templateContainer{
+    padding-top: 20px;
+    max-height: 700px;
+    
+}
+.templateContainer > .searchInput_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+
+}
+.templateContainer > .searchInput_Container input{
+    width: 50%;
+    padding: 10px;
+    outline: none;
+}
+.templateContainer .template_Container{
+    display: flex;
+    max-height: 640px; /* Set the max height to fit the content */
+    overflow-y: auto; /* Enable vertical scrolling */
+    width: 100%; /* Ensure it takes up the available width */
+    max-height: 560px;
+    flex-wrap: wrap; /* Wrap the cards when necessary */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Space between the cards */
+    
+    
+}
+.templateContainer .template_Container .template{
+    background-color: white;
+    margin: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+.templateContainer .template_Container .template img{
+    height: 150px;
+    width: 150px;
+}
+.border{
+    background-color: black;
+}
+.noData{
+    margin-top: 70px; 
+    text-align: center;
+    height: 480px;
+}
+.heading{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
+    font-style: italic;
+    color: white ; /* Font text color changed to white */
+    background-color: #0f172a;
+    border-radius: 25px;
+    padding: 5px 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Added shadow effect */
+    margin: 20px auto;
+    width: fit-content;
+    height: fit-content;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "img": "https://tse4.mm.bing.net/th?id=OIP._MQN6_bPJfgyNsgai8y_-AHaEK&pid=Api&P=0&h=180",
+    "name": "CSE"
+  },
+  {
+    "id": 2,
+    "img": "https://tse1.mm.bing.net/th?id=OIP.aVJV5QrMzMsTMQPp5OSKJAHaE7&pid=Api&P=0&h=180",
+    "name": "CSE-AI"
+  },
+  {
+    "id": 3,
+    "img": "https://tse4.mm.bing.net/th?id=OIP.LGQ0Eja_NrJ-XswAs-tqEQHaEo&pid=Api&P=0&h=180",
+    "name": "CSE-CS"
+  },
+  {
+    "id": 4,
+    "img": "https://tse2.mm.bing.net/th?id=OIP.OJp2bOmRpgMWtBzEZD75EgHaEf&pid=Api&P=0&h=180",
+    "name": "IT"
+  },
+  {
+    "id": 5,
+    "img": "https://tse1.mm.bing.net/th?id=OIP.nw0bvXCv21I8NYj35wZFUAHaFa&pid=Api&P=0&h=180",
+    "name": "ECE"
+  },
+  {
+    "id": 6,
+    "img": "https://amortech3d.com/wp-content/uploads/2020/08/New-8-scaled.jpg",
+    "name": "EE"
+  },
+  {
+    "id": 7,
+    "img": "https://exploreengineering.ca/sites/default/files/2020-02/NEM_mechanical.jpg",
+    "name": "ME"
+  },
+  {
+    "id": 8,
+    "img": "https://tse1.mm.bing.net/th?id=OIP.yl7f727WISpDLPB0DSb_kAHaEK&pid=Api&P=0&h=180",
+    "name": "CIVIL"
+  }
+]
