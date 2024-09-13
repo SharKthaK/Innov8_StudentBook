@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import data from "../../../Batch.json";
-import "../Home.css";
+import "./CSEAI.css";
 
 function CSEAI() {
   const [searchTerm, setSearchTerm] = useState("");
