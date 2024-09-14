@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
+import Enroll from "./components/pages/Enroll";
 import Services from "./components/pages/Services";
 import BBIT from "./components/pages/colleges/BBIT";
 import CSEAI from "./components/pages/departments/CSEAI";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/enroll" element={<Enroll />} />
         <Route path="/1/BBIT" element={<BBIT />} />
         <Route path="/2/CSE-AI" element={<CSEAI />} />
         <Route path="/1/2022-2026" element={<AI26 />} />

@@ -1,0 +1,100 @@
+/* Form container */
+.container {
+  margin-top: 40px; /* Increased margin for breathing space */
+  padding: 40px; /* Reduced padding for a cleaner look */
+}
+
+/* Card styling */
+.card {
+  border-radius: 10px; /* Slightly more rounded for smoother corners */
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow for more depth */
+  max-width: 700px; /* Reduced max width to fit more naturally */
+  margin-left: auto;
+  margin-right: auto; /* Centered the card on the page */
+  padding: 30px; /* Added padding inside the card for better content spacing */
+  background-color: #fff; /* Ensures card stands out on different backgrounds */
+}
+
+/* Card header */
+.card-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #007bff;
+  padding: 20px; /* Increased padding for larger header */
+}
+
+.card-header h5 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem; /* Larger font size for header text */
+  text-align: center; /* Centering the header text */
+}
+
+/* Form label */
+form label {
+  font-weight: 600;
+  color: #333;
+  display: block; /* Ensures the label is on its own line */
+  margin-bottom: 8px; /* Added space between label and input */
+}
+
+/* Form input */
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form input[type="file"] {
+  padding: 12px; /* Slightly more padding for larger inputs */
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow for inputs */
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="tel"]:focus,
+form input[type="email"]:focus,
+form input[type="file"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3); /* Increased box-shadow for focus state */
+}
+
+/* Submit button */
+form input[type="submit"] {
+  width: 100%;
+  padding: 14px; /* Larger padding for more prominent button */
+  font-size: 18px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Margin between form groups */
+form .mb-3 {
+  margin-bottom: 25px; /* Increased margin for better separation between form fields */
+}
+
+/* Form responsiveness */
+@media (max-width: 768px) {
+  .card {
+    margin: 0 20px;
+    padding: 20px; /* Reduced padding on mobile for a cleaner look */
+  }
+  form input[type="submit"] {
+    font-size: 16px;
+  }
+}
+
+form .mt-3 {
+  margin-top: 25px; /* Increased margin for better separation between form fields */
+}

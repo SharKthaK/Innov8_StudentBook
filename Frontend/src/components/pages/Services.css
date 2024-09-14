@@ -1,0 +1,77 @@
+/* ServicePage.css */
+
+/* Container */
+.container {
+    max-width: 1200px; /* Adjust based on your design needs */
+    margin: 0 auto;
+    padding-left: 1rem; /* Equivalent to px-4 in Tailwind */
+    padding-right: 1rem; /* Equivalent to px-4 in Tailwind */
+}
+
+/* Header Section */
+.header {
+    background-color: #2563eb; /* Tailwind's bg-blue-600 */
+    color: #ffffff; /* Tailwind's text-white */
+    padding: 1.5rem 0; /* Tailwind's py-6 */
+}
+
+.header h1 {
+    font-size: 2.25rem; /* Tailwind's text-4xl */
+    font-weight: 700; /* Tailwind's font-bold */
+}
+
+.header p {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    margin-top: 0.5rem; /* Tailwind's mt-2 */
+}
+
+/* Services Section */
+.services-section {
+    padding-top: 3rem; /* Tailwind's py-12 */
+    padding-bottom: 3rem; /* Tailwind's py-12 */
+}
+
+.grid {
+    display: grid;
+    gap: 2rem; /* Tailwind's gap-8 */
+}
+
+.md-grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr); /* Tailwind's md:grid-cols-2 */
+}
+
+.lg-grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr); /* Tailwind's lg:grid-cols-3 */
+}
+
+/* Service Card */
+.service-card {
+    background-color: #ffffff; /* Tailwind's bg-white */
+    padding: 1.5rem; /* Tailwind's p-6 */
+    border-radius: 0.5rem; /* Tailwind's rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-lg */
+}
+
+.service-card h2 {
+    font-size: 1.5rem; /* Tailwind's text-2xl */
+    font-weight: 600; /* Tailwind's font-semibold */
+    margin-bottom: 1rem; /* Tailwind's mb-4 */
+}
+
+.service-card p {
+    color: #4b5563; /* Tailwind's text-gray-700 */
+    margin-bottom: 1rem; /* Tailwind's mb-4 */
+}
+
+.service-card a {
+    color: #2563eb; /* Tailwind's text-blue-600 */
+    font-weight: 600; /* Tailwind's font-semibold */
+    text-decoration: none;
+}
+
+.service-card a:hover {
+    color: #1e40af; /* Tailwind's text-blue-800 */
+}
+
+/* Footer Section */
+

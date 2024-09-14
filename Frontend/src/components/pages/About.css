@@ -1,0 +1,98 @@
+/* About.css */
+
+/* Container styling */
+.about-container {
+    height: 100vh;
+    background: linear-gradient(to bottom, #3b82f6, #9b4dff); /* Gradient from blue to purple */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem; 
+    max-height: 700px;/* Adjust padding as needed */
+    overflow-y: scroll;
+  }
+  
+  /* Heading styling */
+  .about-heading {
+    font-size: 3.75rem; /* Equivalent to text-6xl in Tailwind */
+    color: #ffffff; /* White text */
+    font-weight: 800; /* Equivalent to font-extrabold in Tailwind */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin-bottom: 1.5rem; /* Margin below the heading */
+  }
+  
+  /* Paragraph styling */
+  .about-paragraph {
+    font-size: 1.25rem; /* Equivalent to text-xl in Tailwind */
+    color: #ffffff; /* White text */
+    margin-bottom: 1.5rem; /* Margin below the paragraph */
+    width: 100%;
+    max-width: 75%; /* Adjust width based on the screen size */
+    text-align: center; /* Centered text */
+    line-height: 1.75; /* Line height for readability */
+    margin: 0 auto; /* Center alignment */
+  }
+  
+  /* Button styling */
+  .about-button {
+    background-color: #f97316; /* Equivalent to bg-orange-500 in Tailwind */
+    color: #ffffff; /* White text */
+    font-weight: 600; /* Equivalent to font-semibold in Tailwind */
+    padding: 0.75rem 1.5rem; /* Padding around text */
+    border-radius: 9999px; /* Fully rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    margin-bottom: 1.5rem; /* Margin below the button */
+  }
+  
+  .about-button:hover {
+    background-color: #ea580c; /* Equivalent to bg-orange-700 in Tailwind */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  /* Card styling */
+  .about-card {
+    background-color: #ffffff; /* White background */
+    padding: 1.5rem; /* Padding inside card */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    width: 100%;
+    max-width: 75%; /* Adjust width based on the screen size */
+    margin: 0 auto; /* Center alignment */
+    margin-bottom: 1.5rem; /* Margin below the card */
+  }
+  
+  /* Card heading styling */
+  .about-card-heading {
+    font-size: 1.875rem; /* Equivalent to text-3xl in Tailwind */
+    font-weight: 700; /* Equivalent to font-bold in Tailwind */
+    color: #1f2937; /* Equivalent to gray-800 in Tailwind */
+    margin-bottom: 1rem; /* Margin below heading */
+  }
+  
+  /* Card text styling */
+  .about-card-text {
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+    color: #4b5563; /* Equivalent to gray-700 in Tailwind */
+    margin-bottom: 1rem; /* Margin below text */
+  }
+  
+  /* List styling */
+  .about-list {
+    list-style-type: disc; /* Bullet points */
+    padding-left: 1.25rem; /* Padding left for bullets */
+    margin-bottom: 1rem; /* Margin below list */
+  }
+  
+  /* Contact paragraph styling */
+  .about-contact-paragraph {
+    font-size: 1.25rem; /* Equivalent to text-xl in Tailwind */
+    color: #ffffff; /* White text */
+    margin-bottom: 1.5rem; /* Margin below paragraph */
+    width: 100%;
+    max-width: 75%; /* Adjust width based on the screen size */
+    text-align: center; /* Centered text */
+    line-height: 1.75; /* Line height for readability */
+    margin: 0 auto; /* Center alignment */
+  }

@@ -3,7 +3,7 @@ body{
 }
 .templateContainer{
     padding-top: 20px;
-    min-height:700px;
+    max-height:700px;
      /* Set the max height to 700px */
     overflow: hidden; /* Stop overflow */
 }
@@ -15,11 +15,12 @@ body{
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 40px;
+    
 
 
 }
 .templateContaine > .searchInput_Container input{
-    width: 50%;
+    width: 30%;
     padding: 10px;
     outline: none;
 }
@@ -46,7 +47,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     height: 230px;
-    width: 210px;
+    width: 150px;
 }
 .templateContaine .template_Container .template img{
     height: 150px;
@@ -71,4 +72,25 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1); /* Added shadow effect */
     margin: 20px auto;
     width: fit-content;
+    
+}
+
+.enroll{
+    background-color: #020708;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 120px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(24, 24, 24, 0.3), 0 6px 20px rgba(23, 23, 23, 0.3); /* Added shadow effect */
+}
+
+.headEnroll{
+    display: flex;
+    flex-direction: row;
 }
